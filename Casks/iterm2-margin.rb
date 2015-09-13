@@ -9,7 +9,7 @@ cask :v1 => 'iterm2-margin' do
   homepage 'https://www.iterm2.com/'
   license :gpl
 
-  app 'iTerm.app'
+  app 'iTerm2.app'
 
   zap :delete => '~/Library/Preferences/com.googlecode.iterm2.plist'
 
